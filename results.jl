@@ -20,7 +20,7 @@ const COLORS = JSON3.read(read("colornames.json", String)) # [{"name": "<colorna
 const COLOR2NAME = Dict(c.hex |> to_color => c.name for c in COLORS)
 const NAME2COLOR = Dict(c.name => c.hex |> to_color for c in COLORS)
 
-map = NNBucketMap{RGB, String}(255, fit_key, ΔE76)
+map = NNBucketMap{RGB, String}(16581375, fit_key, ΔE76)
 
 for (c,h) in COLOR2NAME
     map[c] = h
