@@ -66,3 +66,5 @@ BenchmarkTools.Trial: 1555 samples with 1 evaluation per sample.
 
 # Notes
 Using named colors from This repo: https://github.com/meodai/color-names
+
+Also this might be an existing data structure that has a real name, so if it is please let me know!
